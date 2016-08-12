@@ -1,0 +1,65 @@
+require("config")
+
+---------------------------------------------------------
+-- Breeding
+data:extend({
+  {
+    type = "item",
+    name = "alien-ovum",
+    icon = "__VersepellesAlienFarm__/graphics/icons/alien-ovum.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "breeding",
+    order = "a",
+    stack_size = 50,
+  },
+  {
+    type = "item",
+    name = "artificial-spawner",
+    icon = "__VersepellesAlienFarm__/graphics/icons/artificial-spawner.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "breeding",
+    order = "b",
+    place_result = "artificial-spawner",
+    stack_size = 50,
+  },
+  {
+    type = "item",
+    name = "incubator",
+    icon = "__VersepellesAlienFarm__/graphics/icons/incubator.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "breeding",
+    order = "c",
+    place_result = "incubator",
+    stack_size = 50,
+  },
+  {
+    type = "item",
+    name = "harvester-turret",
+    icon = "__VersepellesAlienFarm__/graphics/icons/harvester-turret.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "breeding",
+    order = "d",
+    place_result = "harvester-turret",
+    stack_size = 50,
+  },
+  {
+    type = "item",
+    name = "laser-harvester",
+    icon = "__VersepellesAlienFarm__/graphics/icons/laser-harvester.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "breeding",
+    order = "e",
+    place_result = "laser-harvester",
+    stack_size = 50,
+  },
+  {
+    type = "item",
+    name = "reinforced-transport-belt",
+    icon = "__VersepellesAlienFarm__/graphics/icons/reinforced-transport-belt.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "breeding",
+    order = "f",
+    place_result = "reinforced-transport-belt",
+    stack_size = 50,
+  },
+})
